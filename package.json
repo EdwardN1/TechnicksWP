@@ -1,14 +1,14 @@
 {
-  "name": "jointswp-sass",
+  "name": "technicks-boilerplate-theme",
   "version": "5.0.0",
-  "description": "A WordPress starter theme using Foundation 6",
+  "description": "A WordPress starter theme using Foundation 6, jQuery Waypoints and Slick Slider",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JeremyEnglert/JointsWP.git"
+    "url": "https://github.com/EdwardN1/Technicks-Boiler-Plate-Theme-for-WordPress.git"
   },
   "author": "Jeremy Englert",
   "license": "GPL-2.0 AND MIT",
-  "homepage": "https://github.com/JeremyEnglert/JointsWP",
+  "homepage": "https://github.com/EdwardN1/Technicks-Boiler-Plate-Theme-for-WordPress",
   "devDependencies": {
     "babel-preset-es2015": "^6.5.0",
     "browser-sync": "^2.11.0",
