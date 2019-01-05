@@ -54,5 +54,5 @@ Compiles and minifies all scripts and styles.
 * `assets/images/` - place your theme images here. Each image will be optimized when the build process is ran.
 
 ### jQuery Waypoints
-Initialised to run off data attributes:
+Initialised to run off data attributes.
 `<div data-waypoint data-waypoint-offset="50%" data-waypoint-direction="down" data-waypoint-class="is-animating">`
