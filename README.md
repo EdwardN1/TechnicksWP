@@ -8,7 +8,7 @@ Requires [Node.js](https://nodejs.org) v6.9.x or newer. This doesn't mean you ne
 ```bash
 $ cd my-wordpress-folder/wp-content/themes/
 $ git clone https://github.com/EdwardN1/TechnicksWP.git
-$ cd JointsWP
+$ cd TechnicksWP
 $ npm install
 ```
 At this point, TechnicksWP should be installed and fully running on your local machine. If you prefer to install the theme manually, that will work as well - just be sure to run `npm install` after manually moving the files into the `/themes/` directory.
@@ -55,4 +55,10 @@ Compiles and minifies all scripts and styles.
 
 ### jQuery Waypoints
 Initialised to run off data attributes.
-`<div data-waypoint data-waypoint-offset="50%" data-waypoint-direction="down" data-waypoint-class="is-animating">`
+* `<div data-waypoint data-waypoint-offset="50%" data-waypoint-direction="down" data-waypoint-class="is-animating">`
+* Documents for jQuery Waypoints: http://imakewebthings.com/waypoints/api/waypoint/
+
+### Slick Slider
+Initialised to run of data attributes.
+* `<div data-slick-slider data-slick='{"slidesToShow":3.5, "slidesToScroll":3, "infinite":false, "initialSlide":3, "responsive": [{"breakpoint": 915,"settings": {"slidesToShow": 2.5, "slidesToScroll": 2}}, {"breakpoint": 550, "settings": {"slidesToShow": 1.1, "slidesToScroll": 1}}]}'>`
+* Documents for Slick Slider:  https://github.com/kenwheeler/slick/
