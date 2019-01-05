@@ -1,19 +1,19 @@
 Currently using Foundation 6.5.1.
 
-## JointsWP Requirements
-JointsWP requires [Node.js](https://nodejs.org) v6.9.x or newer. This doesn't mean you need to understand Node (or even Gulp) - it's just the steps we need to take to make sure all of our development tools are installed. 
+## Requirements
+Requires [Node.js](https://nodejs.org) v6.9.x or newer. This doesn't mean you need to understand Node (or even Gulp) - it's just the steps we need to take to make sure all of our development tools are installed. 
 
 ## Getting Started 
-### Download JointsWP and install dependencies with npm 
+### Download and install dependencies with npm 
 ```bash
 $ cd my-wordpress-folder/wp-content/themes/
-$ git clone https://github.com/JeremyEnglert/JointsWP.git
+$ git clone https://github.com/EdwardN1/TechnicksWP.git
 $ cd JointsWP
 $ npm install
 ```
-At this point, JointsWP should be installed and fully running on your local machine. If you prefer to install the theme manually, that will work as well - just be sure to run `npm install` after manually moving the files into the `/themes/` directory.
+At this point, TechnicksWP should be installed and fully running on your local machine. If you prefer to install the theme manually, that will work as well - just be sure to run `npm install` after manually moving the files into the `/themes/` directory.
 
-## Working with JointsWP
+## Working with TechnicksWP
 ### Watching for Changes
 ```bash
 $ npm run watch
@@ -52,3 +52,7 @@ Compiles and minifies all scripts and styles.
 
 ### Images
 * `assets/images/` - place your theme images here. Each image will be optimized when the build process is ran.
+
+### jQuery Waypoints
+Initialised to run off data attributes:
+`<div data-waypoint data-waypoint-offset="50%" data-waypoint-direction="down" data-waypoint-class="is-animating">`
