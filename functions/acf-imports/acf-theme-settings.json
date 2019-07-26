@@ -300,7 +300,7 @@
                 "collapsed": "",
                 "min": 0,
                 "max": 0,
-                "layout": "table",
+                "layout": "row",
                 "button_label": "",
                 "sub_fields": [
                     {
@@ -326,6 +326,30 @@
                         "key": "field_5d36d2246872f",
                         "label": "Icon",
                         "name": "icon",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5d3a9cd7c022b",
+                        "label": "Icon Reversed",
+                        "name": "icon_reversed",
                         "type": "image",
                         "instructions": "",
                         "required": 0,
@@ -383,6 +407,25 @@
                         "prepend": "",
                         "append": "",
                         "maxlength": ""
+                    },
+                    {
+                        "key": "field_5d3a9cf4c022c",
+                        "label": "Include",
+                        "name": "include",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "default_value": 1,
+                        "ui": 0,
+                        "ui_on_text": "",
+                        "ui_off_text": ""
                     }
                 ]
             },
