@@ -503,6 +503,25 @@
                 "button_label": "",
                 "sub_fields": [
                     {
+                        "key": "field_5d4a8d83ad452",
+                        "label": "Column Name",
+                        "name": "column_name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
                         "key": "field_5d36eb0168739",
                         "label": "Column",
                         "name": "column",

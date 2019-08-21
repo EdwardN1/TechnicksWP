@@ -109,6 +109,40 @@
                 "maxlength": ""
             },
             {
+                "key": "field_5d4d1f83578ca",
+                "label": "Title Type",
+                "name": "title_type",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5d37fa980d8b3",
+                            "operator": "==",
+                            "value": "Image"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Text": "Text",
+                    "H1 Heading": "H1 Heading",
+                    "H2 Heading": "H2 Heading"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
                 "key": "field_5d37fb120d8b5",
                 "label": "Link Title",
                 "name": "image_link_title",
@@ -334,6 +368,32 @@
                         "prepend": "",
                         "append": "",
                         "maxlength": ""
+                    },
+                    {
+                        "key": "field_5d4d1fed3fd61",
+                        "label": "Slide Title Type",
+                        "name": "slide_title_type",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Text": "Text",
+                            "H1 Heading": "H1 Heading",
+                            "H2 Heading": "H2 Heading"
+                        },
+                        "default_value": [],
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
                     },
                     {
                         "key": "field_5d37fe3a5a78d",
